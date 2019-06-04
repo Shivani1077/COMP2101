@@ -12,8 +12,8 @@
 ###############
 # Variables   #
 ###############
-title="Overlord"
-myname="dennis"
+title="Hello"
+myname="Dennis, How are you?"
 hostname=$(hostname)
 
 ###############

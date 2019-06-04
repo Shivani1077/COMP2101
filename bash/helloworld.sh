@@ -1,3 +1,5 @@
-#!/bin/#!/usr/bin/env bash
-echo "Hello world!"
+#!/bin/bash
+echo "Hello World!"
+# My first script - helloworld.sh
+echo 'Hello World!'
 echo "I am process # $$"

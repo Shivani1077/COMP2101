@@ -1,6 +1,6 @@
 #!/bin/bash
 
-titles=("Professor" "Operator" "Programmer" "Boss" "Grunt" "Final Boss" "Network Admin" )
+titles=("says hello" "how are you today" "had lunch?" "Had Pizza today!" "yay its sunny day" "good day" "enjoy!" )
 num=$(( ${#titles[@]} ))
 ran=$(( RANDOM % num ))
 ###############

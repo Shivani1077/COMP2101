@@ -73,11 +73,11 @@ while [ $# -gt 0 ]; do
 done
 
 if [ ! $numberOfSleeps -gt 0 ]; then
-    error-exit "$numberOfSleeps is not a valid count of sleeps to wait for signals"
+    error-exit "$numberOfSleeps is not a valid count of sleeps to still waiting..."
 fi
 
 if [ ! $sleepTime -gt 0 ]; then
-    error-exit "$sleepTime is not a valid time to sleep while waiting for signals"
+    error-exit "$sleepTime is not a valid time to sleep while still waiting..."
 fi
 
 sleepCount=$numberOfSleeps
@@ -86,7 +86,7 @@ function reset {
   sleepCount=$(($numberOfSleeps+1))
 }
 while [ $sleepCount -gt 0 ]; do
-    echo "Waiting $sleepCount more times for signals"
+    echo "Waiting $sleepCount still waiting..."
     sleep $sleepTime
     sleepCount=$((sleepCount - 1))
 done

@@ -10,7 +10,7 @@ trap reset 2
 trap foundsecret 3
 # Task: Explain in a comment how the line with the word moose in it works.
 function foundsecret {
-  echo "you found out secret to getting out of script."
+  echo "you found a way to quit."
   exit
 }
 #### Variables
